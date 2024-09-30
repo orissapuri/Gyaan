@@ -1,0 +1,2130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="alpha.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="pencil_preloader.css">
+</head>
+<body onload="Pencil_Preloader()">
+
+     <!-- Pencil preloader code  -->
+     <svg class="pencil" id="pre_pencil" viewBox="0 0 200 200" width="200px" height="200px" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <clipPath id="pencil-eraser">
+                <rect rx="5" ry="5" width="30" height="30"></rect>
+            </clipPath>
+        </defs>
+        <circle class="pencil__stroke" r="70" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="439.82 439.82" stroke-dashoffset="439.82" stroke-linecap="round" transform="rotate(-113,100,100)" />
+        <g class="pencil__rotate" transform="translate(100,100)">
+            <g fill="none">
+                <circle class="pencil__body1" r="64" stroke="hsl(223,90%,50%)" stroke-width="30" stroke-dasharray="402.12 402.12" stroke-dashoffset="402" transform="rotate(-90)" />
+                <circle class="pencil__body2" r="74" stroke="hsl(223,90%,60%)" stroke-width="10" stroke-dasharray="464.96 464.96" stroke-dashoffset="465" transform="rotate(-90)" />
+                <circle class="pencil__body3" r="54" stroke="hsl(223,90%,40%)" stroke-width="10" stroke-dasharray="339.29 339.29" stroke-dashoffset="339" transform="rotate(-90)" />
+            </g>
+            <g class="pencil__eraser" transform="rotate(-90) translate(49,0)">
+                <g class="pencil__eraser-skew">
+                    <rect fill="hsl(223,90%,70%)" rx="5" ry="5" width="30" height="30" />
+                    <rect fill="hsl(223,90%,60%)" width="5" height="30" clip-path="url(#pencil-eraser)" />
+                    <rect fill="hsl(223,10%,90%)" width="30" height="20" />
+                    <rect fill="hsl(223,10%,70%)" width="15" height="20" />
+                    <rect fill="hsl(223,10%,80%)" width="5" height="20" />
+                    <rect fill="hsla(223,10%,10%,0.2)" y="6" width="30" height="2" />
+                    <rect fill="hsla(223,10%,10%,0.2)" y="13" width="30" height="2" />
+                </g>
+            </g>
+            <g class="pencil__point" transform="rotate(-90) translate(49,-30)">
+                <polygon fill="hsl(33,90%,70%)" points="15 0,30 30,0 30" />
+                <polygon fill="hsl(33,90%,50%)" points="15 0,6 30,0 30" />
+                <polygon fill="hsl(223,10%,10%)" points="15 0,20 10,10 10" />
+            </g>
+        </g>
+    </svg>
+    <!-- Pencil preloader code  -->
+
+    <header>
+        <nav class="navbar">
+            <a href="./index.html" class="logo"> <img src="./Images/logo.png" alt=""> </a>
+            <ul class="nav-links">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="space_div"></div>
+
+    <div class="course_name">
+        <p>Complete placement Preparation&ensp;</p> 
+        <p> | Alpha 5.0</p>
+    </div>
+
+    <div class="container">
+        <div class="video-buttons">
+            <h2>1. Welcome to Alpha!</h2>
+            <a href="./alpha/1. Welcome To Alpha/1Alpha Curriculum.pdf">
+                <p><i class="fa-solid fa-file-pdf"></i>&ensp;Alpha Curriculum</p>
+            </a>
+          <button onclick="changeVideo('https://short.ink/-nX6Jay_v', this)">
+            <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Alpha Community Update
+            </button>
+            <a href="./alpha/1. Welcome To Alpha/3. Telegram Channel.pdf">
+                <p>
+                    <i class="fa-solid fa-link" style="color: #ffffff;"></i> &ensp;Telegram Channel Link
+                </p>
+            </a>
+
+
+          <h2>2. Course Introduction</h2>
+            <button onclick="changeVideo('https://short.ink/MiI0bS3sw5', this)">
+            <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp; Path to Placement
+            </button>
+            <button onclick="changeVideo('https://short.ink/WzYfWoFxR', this)">
+                <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;What will you learn ?
+            </button>
+            <button onclick="changeVideo('https://short.ink/ZmIG8P_hz', this)">
+                <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Prerequisites
+            </button>
+
+
+          <h2>3. Prerequisites - Installation Resources</h2>
+          <button onclick="changeVideo('https://short.ink/VKzcpajNA', this)">
+            <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp; What to Install on your laptop
+          </button>
+          <a href="./alpha/3. Prerequisites - Installation Resources/2. Installation Resources.pdf">
+            <p>
+                <i class="fa-solid fa-file-pdf"></i> &ensp;Installation Resources
+            </p>
+        </a>
+
+
+
+        <h2>4. Flowcharts & Pseudocodes</h2>
+        <button onclick="changeVideo('https://short.ink/-YTBe1Y-1', this)">
+        <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp; What are Flowcharts
+        </button>
+        <button onclick="changeVideo('https://short.ink/9Zg-_0OEF', this)">
+            <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Flowchart Components
+        </button>
+        <button onclick="changeVideo('https://short.ink/zIUGPH0_g', this)">
+            <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Sum of 2 Numbers
+        </button>
+        <button onclick="changeVideo('https://short.ink/ebkkcBxH-', this)">
+            <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp; Calculate Simple Interest
+            </button>
+            <button onclick="changeVideo('https://short.ink/cacaUFyuN', this)">
+                <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp; Max of 3 Numbers
+                </button>
+                <button onclick="changeVideo('https://short.ink/oXfCP9i61', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Find if a Number is Prime or not
+                </button>
+                <button onclick="changeVideo('https://short.ink/GTGfk-UyG3', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Sum of first N natural numbers
+                </button>
+                <a href="./alpha/4. Flowcharts & Pseudocodes/Practice Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/4. Flowcharts & Pseudocodes/Solution for Practice Qs.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a>
+
+
+
+
+                <h2>5. Live Mentorship Sessions</h2>
+                <button onclick="changeVideo('https://short.ink/V6ScVGkm-', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;(For New Students) Bonus Live Session 
+                </button>
+                <button onclick="changeVideo('https://short.ink/jwjxQaoii', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Bonus Live Session with Aman Bhaiya
+                 </button>
+                <button onclick="changeVideo('https://short.ink/kvfZkp7B4', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Live Mentorship Session - 1 (with Shradha Didi)
+                </button>
+                <button onclick="changeVideo('https://short.ink/zgnB6lXXK', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Live Mentorship Session - 2 (with Shradha Didi)
+                </button>
+                <button onclick="changeVideo('https://short.ink/c_6--enN6', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Live Mentorship Session - 3 (Resume)
+                </button>
+                <button onclick="changeVideo('https://short.ink/rdMaUmQct', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Live Mentorships Session - 4 (Theory Topics)
+                </button>
+                <button onclick="changeVideo('https://short.ink/IvRdAiI7J', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Live Mentorship Session - 5 (Off-campus Placements)
+                </button>
+                <button onclick="changeVideo('https://short.ink/rcWNLj-Sg', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Live Mentorship Session (on Linkedin) 
+                </button>
+                <button onclick="changeVideo('https://short.ink/KY4gSC5vS', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Live Mentorship Session - 7 (Interview Prep)
+                </button>
+
+
+
+          
+                <h2>6. Variables & Data Types</h2>
+                <button onclick="changeVideo('https://short.ink/nUM3cd-Z7', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Creating A Java File 
+                </button>
+                <button onclick="changeVideo('https://short.ink/BR_gtZRgu', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp; Boilerplate Code
+                 </button>
+                <button onclick="changeVideo('https://short.ink/zEay57h6z', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Output In Java
+                </button>
+                <button onclick="changeVideo('https://short.ink/kCRk1Y44E8', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp; Print A Pattern
+                </button>
+                <button onclick="changeVideo('https://short.ink/2koNiWH9J', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Variables In Java
+                </button>
+                <button onclick="changeVideo('https://short.ink/UbHd_9_p7', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Data Types In Java
+                </button>
+                <button onclick="changeVideo('https://short.ink/bFwKaTQzH', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp; Sum Of a & b
+                </button>
+                <button onclick="changeVideo('https://short.ink/p-I0I5mHv', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;COMMENTS IN JAVA
+                </button>
+                <button onclick="changeVideo('https://short.ink/6LdlE99nK', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Input In Java
+                </button>
+                <button onclick="changeVideo('https://short.ink/yLKAjcnF4', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Sum Of a&b (Input From User)
+                </button>
+                <button onclick="changeVideo('https://short.ink/JiAfB1lfB', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;PRODUCTS OF A & B
+                 </button>
+                <button onclick="changeVideo('https://short.ink/8xAaz3YGx', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp; Area Of Circle
+                </button>
+                <button onclick="changeVideo('https://short.ink/d8UAO9tSj', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Type Conversion
+                </button>
+                <button onclick="changeVideo('https://short.ink/RlRdzjPMv', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Type Casting
+                </button>
+                <button onclick="changeVideo('https://short.ink/4_gy1MxR5', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Type Promotion Expression 
+                </button>
+                <button onclick="changeVideo('https://short.ink/ipf5bmZkl', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;How Does Java Code Run ?
+                </button>
+                <a href="./alpha/6. Variables & Data Types/Practice Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/6. Variables & Data Types/Solutions for Practice Qs.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a>
+
+
+
+                <!-- Start putting links from here -->
+
+
+                <h2>7. Operators</h2>
+                <button onclick="changeVideo('https://short.ink/fuCnrTrYu', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Types of Operators
+                </button>
+                <button onclick="changeVideo('https://short.ink/lQ7u_XkfV', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Arithmetic Operators
+                 </button>
+                <button onclick="changeVideo('https://short.ink/kqnGZGGTSZ', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Unary Operators
+                </button>
+                <button onclick="changeVideo('https://short.ink/EVonoJZUU', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Relational Operators
+                </button>
+                <button onclick="changeVideo('https://short.ink/DEGc-l3t8', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Logical Operators
+                </button>
+                <button onclick="changeVideo('https://short.ink/QkolekYxR', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Assignment Operator
+                </button>
+                <a href="./alpha/7. Operators/Operator Precedence.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Reading Material: Operator Precedence</p>
+                </a>
+                <a href="./alpha/7. Operators/Practice Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/7. Operators/Solutions for Practice Qs.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a>
+                
+
+
+
+
+                <h2>8. Conditional Statements</h2>
+                <button onclick="changeVideo('https://short.ink/MxbTmvtyc', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;if else
+                </button>
+                <button onclick="changeVideo('https://short.ink/FJfq3vW-G', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Print the largest of 2 numbers
+                 </button>
+                <button onclick="changeVideo('https://short.ink/ih9JF3NDB', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Print if number is Odd or Even
+                </button>
+                <button onclick="changeVideo('https://short.ink/bJ2g4p9Q1', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;else if
+                </button>
+                <button onclick="changeVideo('https://short.ink/4wZjgDKfK', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Income Tax Calculator
+                </button>
+                <button onclick="changeVideo('https://short.ink/tCSJeGoVg', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Print the largest of 3 numbers
+                </button>
+                <button onclick="changeVideo('https://short.ink/1yhQiHSQA', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Ternary Operator
+                 </button>
+                <button onclick="changeVideo('https://short.ink/AM3QnVs7F', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Check if a student will Pass or Fail
+                </button>
+                <button onclick="changeVideo('https://short.ink/tDC8-YEVA', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Switch statement
+                </button>
+                <button onclick="changeVideo('https://short.ink/Wygt0BsvZ', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Calculator
+                </button>
+                <a href="./alpha/8. Conditional Statement/Practice Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/8. Conditional Statement/Solutions for Practice Qs.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a>
+
+
+
+
+
+
+                <h2>9. Loops (Flow Control)</h2>
+                <button onclick="changeVideo('https://short.ink/LEIfeDTKI', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Loops Basics
+                </button>
+                <button onclick="changeVideo('https://short.ink/DoYNnlnan', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;while Loop
+                 </button>
+                <button onclick="changeVideo('https://short.ink/LbR6043FrF', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Print numbers from 1 to 10
+                </button>
+                <button onclick="changeVideo('https://short.ink/Yhgflardf', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Print numbers from 1 to n
+                </button>
+                <button onclick="changeVideo('https://short.ink/OoPhI42wK', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Sum of first N natural numbers
+                </button>
+                <button onclick="changeVideo('https://short.ink/zeCZ5xVIe', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;For Loop
+                </button>
+                <button onclick="changeVideo('https://short.ink/zfV7fw793', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Print Square pattern
+                 </button>
+                <button onclick="changeVideo('https://short.ink/5JVJp3EhN', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Print reverse of a number
+                </button>
+                <button onclick="changeVideo('https://short.ink/K1plW_Zse', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Reverse the given number
+                </button>
+                <button onclick="changeVideo('https://short.ink/_AqNhKo6O', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;do while Loop
+                </button>
+                <button onclick="changeVideo('https://short.ink/7xYlJBn1s', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Break statement
+                </button>
+                <button onclick="changeVideo('https://short.ink/gcFodxS-P', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Question - break keyword
+                 </button>
+                <button onclick="changeVideo('https://short.ink/7pRN0UoOW', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Continue statement
+                </button>
+                <button onclick="changeVideo('https://short.ink/RMmqx2PbH', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Question - continue keyword
+                </button>
+                <button onclick="changeVideo('https://short.ink/MOz4FhwMPp', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Check if a number is Prime or not
+                </button>
+                <a href="./alpha/9. Loops (Flow Control)/Practice Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/9. Loops (Flow Control)/Solutions for Practice Qs.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a>
+
+
+
+
+
+
+                <h2>10. Patterns (Part I)</h2>
+                <button onclick="changeVideo('https://short.ink/gw5exODUm', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Intro to Nested Loops <br> (Star Pattern)
+                </button>
+                <button onclick="changeVideo('https://short.ink/RaYrN1MHW', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Inverted Star Pattern
+                 </button>
+                <button onclick="changeVideo('https://short.ink/GQ6FTPZhA', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Half Pyramid Pattern
+                </button>
+                <button onclick="changeVideo('https://short.ink/7GpB3PGJE', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Character Pattern
+                </button>
+                <button onclick="changeVideo('https://short.ink/zWlYfIdXj', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Special Note
+                </button>
+                <a href="./alpha/10. Patterns (Part - I) /Looking Forward - Advanced Pattern.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Looking Forward - Advanced Patterns</p>
+                </a>
+                
+
+
+
+
+                <h2>11. Functions & Methods</h2>
+                <button onclick="changeVideo('https://short.ink/SORpvHdHz', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Introduction to Functions
+                </button>
+                <button onclick="changeVideo('https://short.ink/MaN8jVHVa', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Syntax - Function Code Demo
+                 </button>
+                <button onclick="changeVideo('https://short.ink/4fio2W5xY', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Syntax with Parameters
+                </button>
+                <button onclick="changeVideo('https://short.ink/VwXo6Pt2I', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Parameters v/s Arguments
+                </button>
+                <button onclick="changeVideo('https://short.ink/zUrIHlF_i', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;What happens in memory? (Call Stack)
+                </button>
+                <button onclick="changeVideo('https://short.ink/nRJwobIEG', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Call by Value (in Java)
+                </button>
+                <button onclick="changeVideo('https://short.ink/56wPeauBN', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Product of a & b
+                 </button>
+                <button onclick="changeVideo('https://short.ink/qH3uiAfX6', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Find Factorial
+                </button>
+                <button onclick="changeVideo('https://short.ink/0x1US9BoN', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Find Binomial Coefficient
+                </button>
+                <button onclick="changeVideo('https://short.ink/NzKJodPZJ', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Inbuilt v/s User defined Methods
+                </button>
+                <button onclick="changeVideo('https://short.ink/CwRdDVWQu', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Function Overloading
+                </button>
+                <button onclick="changeVideo('https://short.ink/pSc5ovrpu', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Overloading using Parameters
+                 </button>
+                <button onclick="changeVideo('https://short.ink/FM0C0CxmS', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Overloading using Data Types
+                </button>
+                <button onclick="changeVideo('https://short.ink/e8t6kD3M3', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Check if a number is Prime or not
+                </button>
+                <button onclick="changeVideo('https://short.ink/ZWEZBrRdG', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Check Prime (Optimized)
+                </button>
+                <button onclick="changeVideo('https://short.ink/SEOiaDMbU', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Primes in Range
+                </button>
+                <button onclick="changeVideo('https://short.ink/VEYAZ4OUT', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Binary to Decimal
+                 </button>
+                <button onclick="changeVideo('https://short.ink/L4NroXgQS', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Code - Binary to Decimal
+                </button>
+                <button onclick="changeVideo('https://short.ink/3mKg--PDF', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Decimal to Binary
+                </button>
+                <button onclick="changeVideo('https://short.ink/1kWsbuLYJQ', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Code - Decimal to Binary
+                </button>
+                <button onclick="changeVideo('https://short.ink/y8Q-F3Moh', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Method Scope
+               </button>
+               <button onclick="changeVideo('https://short.ink/Uf4p4OCCm', this)">
+                   <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Block Scope
+               </button>
+                <a href="./alpha/11. Function & Methods/Practice Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/11. Function & Methods/Solutions for Practice Qs.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a>
+
+
+
+
+
+                
+                <h2>12. Pattern Advanced (Part - II)</h2>
+                <button onclick="changeVideo('https://short.ink/BYkLSrGiV', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Hollow Rectangle Pattern
+                </button>
+                <button onclick="changeVideo('https://short.ink/WkNW4IBg7', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Dry Run - Hollow Rectangle Pattern
+                 </button>
+                <button onclick="changeVideo('https://short.ink/lpjprL5oI', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Inverted & Rotated Half Pyramid
+                </button>
+                <button onclick="changeVideo('https://short.ink/7r5xcvzC3', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Inverted Half Pyramid Pattern with Number
+                </button>
+                <button onclick="changeVideo('https://short.ink/TX5zoiC8-', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Floyd's Triangle Pattern
+                </button>
+                <button onclick="changeVideo('https://short.ink/fU_hqZvC5', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;0-1 Triangle Pattern
+                </button>
+                <button onclick="changeVideo('https://short.ink/WOLi4oCD1', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Butterfly Pattern
+                 </button>
+                <button onclick="changeVideo('https://short.ink/HD73jMrP6', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Solid Rhombus Pattern
+                </button>
+                <button onclick="changeVideo('https://short.ink/aEFBm-1xG', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Hollow Rhombus Pattern
+                </button>
+                <button onclick="changeVideo('https://short.ink/fqTTrQPsX', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Diamond Pattern
+                </button>
+                <button onclick="changeVideo('https://short.ink/MoPJTmAv3', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Bonus LIVE Class
+                </button>
+
+
+
+
+
+                <h2>13. Arrays</h2>
+                <button onclick="changeVideo('https://short.ink/YhaY-ekSn', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Introduction
+                </button>
+                <button onclick="changeVideo('https://short.ink/ehCc_fVox', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Arrays - Creation
+                 </button>
+                <button onclick="changeVideo('https://short.ink/zr6btSyal', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Arrays - Input, Output & Update
+                </button>
+                <button onclick="changeVideo('https://short.ink/hukFxrBIn', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Arrays as Function Arguments
+                </button>
+                <a href="./alpha/13. Arrays/4.1 Space & Time Complexity.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Space & Time Complexity (Reading Material)</p>
+                </a>
+                <button onclick="changeVideo('https://short.ink/NRiO8z5ykQ56', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Linear Search
+                </button>
+                <button onclick="changeVideo('https://short.ink/aYp_bk3AT', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Largest in Array
+                </button>
+                <button onclick="changeVideo('https://short.ink/d_aC4nCjc', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Binary Search
+                 </button>
+                <button onclick="changeVideo('https://short.ink/VN0_1VNEP', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Binary Search Code
+                </button>
+                <button onclick="changeVideo('https://short.ink/p1RjFc2iQ', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Reverse an Array
+                </button>
+                <button onclick="changeVideo('https://short.ink/RMaJLLY4D', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Pairs in Array
+                </button>
+                <button onclick="changeVideo('https://short.ink/w8xiczlcZ', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Print Subarrays
+                </button>
+                <button onclick="changeVideo('https://short.ink/JWsht2fUP', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Max Subarray Sum - I (Brute Force)
+                </button>
+                <button onclick="changeVideo('https://short.ink/o1N3tucnJ2', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Max Subarray Sum - II (Prefix Sum)
+                 </button>
+                <button onclick="changeVideo('https://short.ink/_Ejh2ISaf', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Max Subarray Sum - III (Kadane's Algorithm)
+                </button>
+                <button onclick="changeVideo('https://short.ink/szG3WY4JE', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Trapping Rainwater
+                </button>
+                <button onclick="changeVideo('https://short.ink/zVV7WzozS', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Trapping Rainwater - Code
+                </button>
+                <button onclick="changeVideo('https://short.ink/oqn2Vjv10', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Best Time to Buy & Sell Stock
+                </button>
+                <a href="./alpha/13. Arrays/Practice Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Assignment Questions (Arrays)</p>
+                </a>
+                <a href="./alpha/13. Arrays/Solutions for Practice Qs.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Assignment Codes (Arrays)</p>
+                </a>
+
+
+
+
+
+                <h2>14. Basic Sorting Algorithms</h2>
+                <button onclick="changeVideo('https://short.ink/AN66pchID2', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;What is sorting?
+                </button>
+                <button onclick="changeVideo('https://short.ink/88_I6IzwH', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Bubble Sort
+                 </button>
+                <button onclick="changeVideo('https://short.ink/MLUOnwKmA', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Bubble Sort Code
+                </button>
+                <button onclick="changeVideo('https://short.ink/bRsfezOpm', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Selection Sort
+                </button>
+                <button onclick="changeVideo('https://short.ink/banC6K8Es', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Selection Sort Code
+                </button>
+                <button onclick="changeVideo('https://short.ink/_qQfRg3js', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Insertion Sort
+                </button>
+                <button onclick="changeVideo('https://short.ink/Yv2ir_xJ3', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Insertion Sort Code
+                 </button>
+                <button onclick="changeVideo('https://short.ink/Tc_qPqMfB', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Inbuilt Sort
+                </button>
+                <button onclick="changeVideo('https://short.ink/cv1F6kPYb', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Counting Sort
+                </button>
+                <button onclick="changeVideo('https://short.ink/PPNvr0fMj', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Counting Sort Code
+                </button>
+                <a href="./alpha/14. Basic Sorting Algorithm/Practice Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/14. Basic Sorting Algorithm/Solutions for Practice Qs.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a>
+
+
+
+
+                <h2>15. 2D Arrays</h2>
+                <button onclick="changeVideo('https://short.ink/9FJK4Kvhb', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Introduction to 2D Arrays
+                </button>
+                <button onclick="changeVideo('https://short.ink/0zc-00Y6h', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Real life examples
+                 </button>
+                <button onclick="changeVideo('https://short.ink/N2hfRxZxU', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Representation of 2D Arrays
+                </button>
+                <button onclick="changeVideo('https://short.ink/YKFEO6Aaf', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Creation of 2D Arrays
+                </button>
+                <button onclick="changeVideo('https://short.ink/aeEnIPgs5', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;2D Arrays in Memory
+                </button>
+                <button onclick="changeVideo('https://short.ink/584Oo2reY', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Spiral Matrix
+                </button>
+                <button onclick="changeVideo('https://short.ink/mRB5oc36J', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Spiral Matrix Code
+                 </button>
+                <button onclick="changeVideo('https://short.ink/nVgvrtDG2', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Diagonal Sum
+                </button>
+                <button onclick="changeVideo('https://short.ink/O_flbPbdQ', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Search in Sorted Matrix
+                </button>
+                <button onclick="changeVideo('https://short.ink/kq79_zMJA', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Search in Sorted Matrix Code
+                </button>
+                <a href="./alpha/15. 2D Arrays/Practice Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/15. 2D Arrays/Solutions for Practice Qs.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a>
+
+
+
+
+                <h2>16. Strings</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;What are Strings?
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Input/Output
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;String Length
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;String Concatenate
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;String char At Method
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Check if a String is Palindrome
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Question - Shortest Path
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;String Functions - compare
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;String Functions - substring
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Print Largest String
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Why Strings are Immutable?
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;StringBuilder
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Convert Letters to Uppercase
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;String Compression
+                </button>
+                <a href="./alpha/16. Strings/Practice Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/16. Strings/Solution for Practice Qs.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a> 
+
+
+
+
+
+                <h2>17. Bit Manipulation</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Introduction to Bit Manipulation
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Binary Number System
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Bitwise Operators
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Binary AND
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Binary OR
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Binary XOR
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Binary 1's Complement
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Binary Left Shift
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Binary Right Shift
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Check if Odd or Even
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Get ith Bit
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Set ith Bit
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Clear ith Bit
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Update ith bit
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Clear last i bits
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Clear range of bits
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Check if a number is power of 2 or not
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Count set bits in a number
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Fast Exponentiation
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Fast Exponentiation Code
+                </button>
+                <a href="./alpha/17. Bit Manipulation/Practice Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/17. Bit Manipulation/Solution for Practice Qs.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a> 
+
+
+
+
+
+                <h2>18. Object Oriented Programming (OOPs)</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Classes & Objects
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Access Modifiers
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Getters & Setters
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Encapsulation
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Constructors
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Type of Constructors
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Copy Constructor
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Shallow & Deep Copy
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Destructors
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Inheritance
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Single level Inheritance
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Multi level Inheritance
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Hierarchial Inheritance
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Hybrid Inheritance
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Polymorphism
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Method Overloading
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Method Overriding
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Packages in Java
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Abstraction
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Abstract Classes
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Interfaces
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Static keyword
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Super keyword
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Solved Questions Practice
+                </button>
+                <a href="./alpha/18. Object Oriented Programming (OOPs)/Practice Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/18. Object Oriented Programming (OOPs)/Solution for Practice Qs.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a> 
+
+
+
+
+                <h2>19. Recursion Basics</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;What is Recursion?
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Print numbers in decreasing order
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Stack overflow
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Print numbers in increasing order
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Find Factorial of N
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Print sum of N natural numbers
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Print Nth Fibonacci number
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Check if array is sorted or not
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;First Occurrence
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Last Occurrence
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Print x to the power n
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Print x to the power n (Optimized)
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Tiling Problem
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Tiling Problem Code
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Remove Duplicates in a String
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Friends Pairing Problem
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Binary Strings Problem
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Binary Strings Problem Code
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Stack Analysis - Binary Strings
+                </button>
+                <a href="./alpha/19. Recursion Basics/Practice Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/19. Recursion Basics/Solution for Practice Qs.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a> 
+
+
+
+
+                <h2>20. Divide & Conquer</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;What is Divide & Conquer?
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Merge Sort (Basic + Space Optimized)
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Merge Sort Code
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Quick Sort
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Quick Sort Code
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Worst Case in Quick Sort
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Sorted & Rotated Array Search
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Sorted & Rotated Array Code
+                </button>
+                <a href="./alpha/20. Divide & Conquer/Practice Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/20. Divide & Conquer/Solution for Practice Qs.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a> 
+
+
+
+                <h2>21. Time & Space Complexity</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Introduction
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;What is Time Complexity?
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Constant Time Complexity
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Big O Notation
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Big Omega & Theta Notation
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Common Complexities
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Space Complexity
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Simple Loop Analysis
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Nested Loop 1 Analysis
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Nested Loop 2 Analysis
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Nested Loop 3 Analysis
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Bubble Sort Analysis
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Binary Search Analysis
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Recursive Complexity Analysis (Factorial)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Sum of N numbers Analysis
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Fibonacci Analysis
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Merge Sort Analysis
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Recurrence Relation - Merge Sort
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Power Function I - Analysis
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Power Function II - Analysis
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Power Function III - Analysis
+               </button>
+               <button onclick="changeVideo('', this)">
+                   <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;How to approach Coding Questions?
+               </button>
+                <a href="./alpha/21. Time & Space Complexity/Practice Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/21. Time & Space Complexity/Solution for Practice Qs.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a> 
+
+
+
+
+                <h2>22. Backtracking</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Introduction
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Types of Backtracking
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Backtracking on Arrays
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Find Subsets
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Find Subsets Code
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Find Permutations
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Find Permutations Code
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;N Queens - all ways
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;N Queens - Time Complexity
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;N Queens - count ways
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;N Queens - print one solution
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Grid Ways
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Grid Ways Code
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Grid Ways Trick
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Sudoku
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Sudoku Code
+                </button>
+                <a href="./alpha/22. Backtracking/Practice Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/22. Backtracking/Solution for Practice Qs.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a> 
+
+
+
+
+                <h2>23. ArrayLists</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Introduction to ArrayList
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Operations on ArrayList
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Size of ArrayList
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Print Reverse
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Find Maximum
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Swap 2 Numbers
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Sorting an ArrayList
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;ArrayList (Implementation in Java)
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Multi-dimensional ArrayLists
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Container with Most Water (Brute Force)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Container with Most Water (2 Pointer App...)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Container wMW V/s Trapping Rainwater
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Pair Sum - 1 (Brute Force)
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Pair Sum - 1 (2 Pointer Approach)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Pair Sum - 2
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Pair Sum - 2 (Code)
+                </button>
+                <a href="./alpha/23. ArrayList /Practice Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/23. ArrayList /Solution for Practice Qs.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a> 
+
+
+
+                <h2>24. Linked Lists (Part 1)</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Introduction to Linked List
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Head & Tail in LL
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Add First in LL
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Add Last in LL
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Print a LL
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Add in the Middle of LL
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Size of a LL
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Remove First in LL
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Remove Last in LL
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Iterative Search
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Recursive Search
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Reverse a Linked List
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Find and Remove Nth Node from End
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Check if LL is Palindrome
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Check if LL is Palindrome (Code)
+                </button>
+
+
+
+
+
+                <h2>25. Linked Lists (Part 2)</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Detecting Cycle in LL
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Detecting Cycle Code
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Removing Cycle in LL
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Removing Cycle Code
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Removing Cycle Explanation (Math)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Java Collections Framework
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;LL in Collections Framework
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Merge Sort on LL
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Merge Sort on LL (Code)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Zig Zag Linked List
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Zig Zag LL Code
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Doubly LL
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Reverse a Doubly LL
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Circular LL (Approach)
+                </button>
+                <a href="./alpha/25. Linked List (Part 2)/Circular LInked List ( Reading Material).pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Circular Linked List (Reading Material)</p>
+                </a> 
+                <a href="./alpha/25. Linked List (Part 2)/Practice Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/25. Linked List (Part 2)/Solution for Practice Qs.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a> 
+
+
+
+
+
+
+                                
+
+
+                <h2>26. Stacks</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;
+                </button>
+                <a href="./alpha/">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a> 
+
+
+
+
+
+
+                                
+
+
+                <h2>27. Queues</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Introduction to Queues
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Queues using Arrays
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Circular Queue using Arrays
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Queue using LL
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Queue using JCF
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Queue using Two Stacks
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Stack using 2 Queues
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;First Non-Repeating Letter
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Interleave two halves of a Queue
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Queue Reversal
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Deque (Double Ended Queue)
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Deque in JCF
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Implement Stack using Deque
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Implement Queue using Deque
+                </button>
+                <a href="./alpha/27. Queues/_27.15_Queue Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/27. Queues/_27.16_Queue Solutions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a> 
+
+
+
+
+
+                                
+
+
+                <h2>28. Greedy Algorithms</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Introduction to Greedy
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Activity Selection
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Activity Selection Code
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Activity Selection Explanation
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Fractional Knapsack
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Fractional Knapsack Code
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Minimum Sum...difference pairs
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Maximum length chain of pairs
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Indian Coins
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Job Sequencing Problem
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Chocola Problem
+               </button>
+               <button onclick="changeVideo('', this)">
+                   <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Chocola Problem Code
+               </button>
+                <a href="./alpha/28. Greedy Algorithms/_28.13_Comparators in Java.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Comparators in Java</p>
+                </a>
+                <a href="./alpha/28. Greedy Algorithms/_28.14_Greedy Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/28. Greedy Algorithms/_28.15_Greedy Solutions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a> 
+
+
+
+
+            
+
+                <h2>29. Binary Trees (Part 1)</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Introduction to Binary Trees
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Levels & Sub-trees in a Tree
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Pop Quiz
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Build Tree Preorder
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Build Tree Preorder Code
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Preorder Traversal
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Inorder Traversal
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Postorder Traversal
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Level order Traversal
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Height of a Tree
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Count of Nodes of a Tree
+               </button>
+               <button onclick="changeVideo('', this)">
+                   <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Sum of Nodes
+               </button>
+                
+
+
+                            
+
+
+               <h2>30. Binary Trees (Part 2)</h2>
+               <button onclick="changeVideo('', this)">
+                   <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Diameter of a Tree (Approach1)
+               </button>
+               <button onclick="changeVideo('', this)">
+                   <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Diameter of a Tree (Approach2)
+                </button>
+               <button onclick="changeVideo('', this)">
+                   <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Subtree of another tree
+               </button>
+               <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Subtree of another tree Code
+               </button>
+               <button onclick="changeVideo('', this)">
+                   <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Top View of a Tree (Basics)
+               </button>
+               <button onclick="changeVideo('', this)">
+                   <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Top View of a Tree (Approach)
+               </button>
+               <button onclick="changeVideo('', this)">
+                   <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Top View of a Tree (Code)
+                </button>
+             
+
+
+
+                                
+
+
+                <h2>31. Binary Trees (Part 3)</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Kth Level
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Lowest Common Ancestor (Approach1)
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Lowest Common Ancestor (Approach2)
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Minimum Distance between 2 Nodes
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Kth ancestor of Node
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Transform to Sum Tree
+                </button>
+                <a href="./alpha/31. Binary Trees (Part 3)/_31.7_Binary Tree Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/31. Binary Trees (Part 3)/_31.8_Binary Tree Solutions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a> 
+
+
+                                
+
+
+                <h2>32. Binary Search Trees (Part 1)</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Introduction
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Concept of Search in BST
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Build a BST
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Search in a BST
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Delete a Node
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Print in Range
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Root to Leaf Path
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Validate BST
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Mirror a BST
+                </button>
+               
+
+
+
+                                
+
+
+                <h2>33. Binary Search Trees (Part 2)</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Sorted Array to Balanced BST
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Convert BST to Balanced BST
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Size of Largest BST in BT
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Size of Largest BST in BT (Code)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Merge 2 BSTs
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;AVL Trees
+                </button>
+                <a href="./alpha/33. Binary Search Trees (Part 2)/_33.7_AVL Trees in Java.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;AVL Trees in Java</p>
+                </a>
+                <a href="./alpha/33. Binary Search Trees (Part 2)/_33.8_Red Black Trees in Java.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Red Black Trees in Java</p>
+                </a>
+                <a href="./alpha/33. Binary Search Trees (Part 2)/_33.9_BST Questions (2).pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/33. Binary Search Trees (Part 2)/_33.10_BST Solutions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a> 
+
+
+
+
+                                
+
+
+                <h2>34. Heaps</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Introduction to Priority Queues
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;PQ in JCF
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;PQ for Objects
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Introduction to Heaps
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Heap Implementation (using CBT)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Insert in Heap
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Peek from Heap
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Remove from Heap
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Heap Sort
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Nearby Cars
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Connect N Ropes with Minimum Cost
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Weakest Soldier
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Sliding Window Maximum
+                </button>
+                <a href="./alpha/34. Heaps/_34.15_Heap Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/34. Heaps/_34.16_Heap Solutions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a> 
+
+
+
+                                
+
+
+                <h2>35. Hashing</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Hashing Introduction
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;HashMap
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;HashMap Operations
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Iteration on HashMaps
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;HashMap Implementation
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;HashMap Implementation Code
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Special Note
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;LinkedHashMap
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Tree Map
+                </button>
+                <a href="./alpha/35. Hashing/_35.10_Table.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Table</p>
+                </a> 
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Majority Element
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Valid Anagram
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;HashSet
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Iteration on HashSets
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;LinkedHashSet
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;TreeSet
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Count Distinct Elements
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Union & Intersection
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Find Itinerary for Tickets
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Largest Subarray with Sum 0
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Subarray Sum Equal to K
+                </button>
+                <a href="./alpha/35. Hashing/_35.22_Hashing Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/35. Hashing/_35.23_Hashing Solutions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a> 
+
+                                
+
+
+                <h2>36. Tries</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Tries Introduction
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;What is a Trie
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Creating a Trie
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Insertion
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Searching
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Word Break Problem
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Prefix Problem
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Starts With Problem
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Unique Substrings
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Longest Word with all Prefixes
+                </button>
+                <a href="./alpha/36. Tries/_36.11_Tries Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/36. Tries/_36.12_Tries Solutions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a> 
+
+                                
+
+
+                <h2>37. Graphs (Part 1)</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Introduction to Graphs
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Types of Graphs (Based on Edge)
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Graph Representations
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Graph Applications
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Creating a Graph (Adjacency List)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;BFS (Breadth First Search)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;DFS (Depth First Search)
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Has Path (using DFS)
+                </button>
+              
+
+                            
+
+                <h2>38. Graphs (Part 2)</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Connected Components
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Cycle in Graphs
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Cycle Detection (Undirected Graph) DFS
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Bipartite Graph
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Cycle Detection (Directed graph) DFS
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Extra Read
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Topological Sorting (using DFS)
+                 </button>
+               
+
+            
+
+                 <h2>39. Graphs (Part 3)</h2>
+                 <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Topological Sort using BFS (Kahn's Algorithm)
+                 </button>
+                 <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Topological Sort using BFS (Code)
+                  </button>
+                 <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;All Paths from Source to Target
+                 </button>
+                 <button onclick="changeVideo('', this)">
+                      <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Dijkstra's Algorithm
+                 </button>
+                 <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Dijkstra's Algorithm (Code)
+                 </button>
+                 <a href="./alpha/39. Graphs (Part 3)/_39.6_Graph-1 Questions.pdf">
+                     <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                 </a>
+                 <a href="./alpha/39. Graphs (Part 3)/_39.7_Graph-1 Solutions.pdf">
+                     <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                 </a> 
+ 
+ 
+                 
+
+                 <h2>40. Graphs (Part 4)</h2>
+                 <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Bellman Ford Algorithm
+                 </button>
+                 <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Bellman Ford (Code)
+                  </button>
+                 <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;What is MST
+                 </button>
+                 <button onclick="changeVideo('', this)">
+                      <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Prim's Algorithm
+                 </button>
+                 <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Prim's Code
+                 </button>
+                 
+ 
+                                  
+
+                <h2>41. Graphs (Part 5)</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Cheapest Flights within K Stops
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Cheapest Flights within K Stops (Code)
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Connecting Cities
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Connecting Cities (Code)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Disjoint Set Union
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Kruskal's Algorithm
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Flood Fill Algorithm
+                 </button>
+                 <a href="./alpha/41. Graphs (Part 5)/_41.8_Articulation Point.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Articulation Point</p>
+                </a>
+                <a href="./alpha/41. Graphs (Part 5)/_41.9_Floyd Warshall Algorithm.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Floyd Warshall Algorithm</p>
+                </a> 
+                <a href="./alpha/41. Graphs (Part 5)/_41.10_Graoh-02 Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/41. Graphs (Part 5)/_41.11_Graph-02 Solutions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a> 
+
+
+                
+
+
+                <h2>42. Graphs - Supplemental</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Strongly Connected Components (Kosaraju's Algorithm)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Bridge in Graph (Tarjan's Algorithm)
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Articulation Point (Tarjan's Algorithm)
+                </button>
+            
+
+                
+
+
+                <h2>43. DP (Part 1)</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Introduction to DP
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;What is DP (Definition)
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Ways of DP
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Important Concepts
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Climbing Stairs (Recursion)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Climbing Stairs (Memoization DP)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Climbing Stairs Variation
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Climbing Stairs (Tabulation DP)
+                </button>
+
+
+                                
+
+                <h2>44. DP (Part 2)</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Types of Knapsack problems
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Knapsack (Recursion)
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Knapsack (Memoization)
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Knapsack (Tabulation)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Target Sum Subset (Tabulation)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Target Sum Subset (Code)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Unbounded Knapsack (Tabulation)
+                 </button>
+
+                                 
+
+                <h2>45. DP (Part 3)</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Coin Change (Live Class)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Rod Cutting
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Longest Common Subsequence <br> (Recursion)
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;LCS (Memoization)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;LCS (Tabulation)
+                </button>
+
+
+                                
+
+                <h2>46. DP (Part 4)</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Longest Common Substring
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Longest Increasing Subsequence
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Edit Distance (Explanation)
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Edit Distance (Code)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;String Conversion
+                </button>
+                
+
+                                
+
+
+                <h2>47. DP (Part 5)</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Wildcard Matching - Hard (Explanation)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Wildcard Matching (Code)
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Catalan's Number (Recursion - <br> Memoization)
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Catalan's Number (Tabulation)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Count BSTs
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Mountain Ranges
+                </button>
+             
+                
+
+
+                <h2>48. DP (Part 6)</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Basics of Matrices (Math)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Matrix Chain Multiplication (Recursion)
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;MCM (Memoization)
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;MCM (Tabulation)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Minimum Partitioning
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Minimum Array Jumps (Explanation)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Minimum Array Jumps (Code)
+                 </button>
+                <a href="./alpha/48. DP (Part 6)/_48.8_DP Questions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Practice Questions</p>
+                </a>
+                <a href="./alpha/48. DP (Part 6)/_48.9_DP Solutions.pdf">
+                    <p><i class="fa-solid fa-file-pdf"></i>&ensp;Solutions for Practice Qs</p>
+                </a> 
+
+
+                
+
+
+                <h2>49. Segment Trees</h2>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Segment Trees Introduction
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Count & Meaning of Nodes
+                 </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Creation of ST
+                </button>
+                <button onclick="changeVideo('', this)">
+                     <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Queries on ST
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Update on ST
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Max Min Segment Tree (Creation)
+                </button>
+                <button onclick="changeVideo('', this)">
+                    <i class="fa-regular fa-circle-play fa-lg" style="color: #ffffff;"></i> &ensp;Max Min Segment Tree (Query Update)
+                 </button>
+                
+                 <div class="alpha_space"></div>
+
+        </div>
+        <div class="video-player">
+            
+          <iframe id="myVideo" width="100%" height="100%" src="" frameborder="0" allowfullscreen></iframe>
+        </div> 
+    </div>
+      
+
+      <script>
+        function changeVideo(newSrc, button) {
+          var iframe = document.getElementById('myVideo');
+          iframe.src = newSrc;
+      
+          // Remove the active class from all buttons
+          var buttons = document.querySelectorAll('.video-buttons button');
+          buttons.forEach(function(btn) {
+            btn.classList.remove('active-button');
+          });
+      
+          // Add the active class to the clicked button
+          button.classList.add('active-button');
+        }
+
+        var preloader = document.getElementById('pre_pencil');
+        function Pencil_Preloader(){
+            preloader.style.display = 'none';
+        }
+   
+      </script>
+      
+
+</body>
+</html>

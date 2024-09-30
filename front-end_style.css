@@ -1,0 +1,21 @@
+.navbar_1{
+    margin: 0vh 0 10vh 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    background-color: #2c2c2c;
+    width: 100%;
+    border-bottom: 2vh solid black;
+    /* height: 10vh; */
+}
+
+@media screen and (max-width: 768px) {
+
+    .logo img{
+        /* width: 8vw; */
+        margin: 0 0 0 3vw ;
+    }
+    
+}

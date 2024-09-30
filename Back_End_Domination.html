@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="back_cont_style.css">
+    <link rel="stylesheet" href="front-end_style.css">
+    <link rel="stylesheet" href="pencil_preloader.css">
+</head>
+<body onload="Pencil_Preloader()">
+
+    <!-- Pencil preloader code  -->
+    <svg class="pencil" id="pre_pencil" viewBox="0 0 200 200" width="200px" height="200px" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <clipPath id="pencil-eraser">
+                <rect rx="5" ry="5" width="30" height="30"></rect>
+            </clipPath>
+        </defs>
+        <circle class="pencil__stroke" r="70" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="439.82 439.82" stroke-dashoffset="439.82" stroke-linecap="round" transform="rotate(-113,100,100)" />
+        <g class="pencil__rotate" transform="translate(100,100)">
+            <g fill="none">
+                <circle class="pencil__body1" r="64" stroke="hsl(223,90%,50%)" stroke-width="30" stroke-dasharray="402.12 402.12" stroke-dashoffset="402" transform="rotate(-90)" />
+                <circle class="pencil__body2" r="74" stroke="hsl(223,90%,60%)" stroke-width="10" stroke-dasharray="464.96 464.96" stroke-dashoffset="465" transform="rotate(-90)" />
+                <circle class="pencil__body3" r="54" stroke="hsl(223,90%,40%)" stroke-width="10" stroke-dasharray="339.29 339.29" stroke-dashoffset="339" transform="rotate(-90)" />
+            </g>
+            <g class="pencil__eraser" transform="rotate(-90) translate(49,0)">
+                <g class="pencil__eraser-skew">
+                    <rect fill="hsl(223,90%,70%)" rx="5" ry="5" width="30" height="30" />
+                    <rect fill="hsl(223,90%,60%)" width="5" height="30" clip-path="url(#pencil-eraser)" />
+                    <rect fill="hsl(223,10%,90%)" width="30" height="20" />
+                    <rect fill="hsl(223,10%,70%)" width="15" height="20" />
+                    <rect fill="hsl(223,10%,80%)" width="5" height="20" />
+                    <rect fill="hsla(223,10%,10%,0.2)" y="6" width="30" height="2" />
+                    <rect fill="hsla(223,10%,10%,0.2)" y="13" width="30" height="2" />
+                </g>
+            </g>
+            <g class="pencil__point" transform="rotate(-90) translate(49,-30)">
+                <polygon fill="hsl(33,90%,70%)" points="15 0,30 30,0 30" />
+                <polygon fill="hsl(33,90%,50%)" points="15 0,6 30,0 30" />
+                <polygon fill="hsl(223,10%,10%)" points="15 0,20 10,10 10" />
+            </g>
+        </g>
+    </svg>
+    <!-- Pencil preloader code  -->
+
+    <header>
+        <nav class="navbar_1">
+            <a href="./index.html" class="logo"> <img src="./Images/logo.png" alt=""> </a>
+            <ul class="nav-links">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="space_div"></div>
+
+    <div class="course_name">
+        <p>Back-End_Domination: Create</p> 
+        <p>Efficient Back-End</p>
+    </div>
+    <div class="course_lectures">
+        <a href="./Back_Day_1.html">
+            <div class="day_lecture">
+             <p>1. Backend Domination_ Create&nbsp;</p>
+             <p>efficient backend</p>
+            </div>
+        </a>
+        <a href="./Back_Day_2.html"><div class="day_lecture">2. How to get help or resolve your doubt</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_3.html"><div class="day_lecture">3. Learning tips for Success</div></a>
+        <a href="./Back_Day_4.html"><div class="day_lecture">4. Do not skip the Important information</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_5.html"><div class="day_lecture">5. More Important information</div></a>
+        <a href="./Back_Day_6.html"><div class="day_lecture">6. Quick look at what you learn</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_7.html"><div class="day_lecture">7. How to follow your course</div></a>
+        <a href="./Back_Day_8.html"><div class="day_lecture">8. Introduction to JavaScript</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_9.html"><div class="day_lecture">9. Mastering JavaScript Essential</div></a>
+        <a href="./Back_Day_10.html"><div class="day_lecture">10. Understand Variable in JavaScript</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_11.html">
+            <div class="day_lecture">
+                <p>11. Explore Different type of data&nbsp;</p>
+                <p> in javascript</p>
+            </div>
+        </a>
+        
+        <a href="./Back_Day_12.html"><div class="day_lecture">12. Playing with Operators</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_13.html">
+            <div class="day_lecture">
+                <p>13. Logical Operators making smart&nbsp;</p>
+                <p> decision in javascript</p>
+            </div>
+        </a>
+        <a href="./Back_Day_14.html"><div class="day_lecture">14. Loops in JavaScript</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_15.html">
+            <div class="day_lecture">
+                <p>15. Making Choice with Conditional&nbsp;</p>
+                <p> Statements</p>
+            </div>
+        </a>
+        <a href="./Back_Day_16.html"><div class="day_lecture">16. Mastering Function</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_17.html"><div class="day_lecture">17. Geting Start with Asynchronous Js</div></a>
+        <a href="./Back_Day_18.html"><div class="day_lecture">18. Understanding Asynchronous js</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_19.html"><div class="day_lecture">19. Don't worry more to come</div></a>
+        <a href="./Back_Day_20.html">
+            <div class="day_lecture">
+                <p>20. Understanding Call back and&nbsp;</p>
+                <p> promises</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_21.html"><div class="day_lecture">21. Promises in JavaScript</div></a>
+        <a href="./Back_Day_22.html">
+            <div class="day_lecture">
+                <p>22. Introduction to Import and export&nbsp;</p>
+                <p>In JavaScript</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_23.html"><div class="day_lecture">23. Understanding Common Js</div></a>
+        <a href="./Back_Day_24.html"><div class="day_lecture">24. How to internet works</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_25.html"><div class="day_lecture">25. Understanding the internet</div></a>
+        <a href="./Back_Day_26.html"><div class="day_lecture">26. Understand the ip addresses</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_27.html"><div class="day_lecture">27. Cracking the code of MAC ADDRESS</div></a>
+        <a href="./Back_Day_28.html"><div class="day_lecture">28. Understanding the proxy</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_29.html"><div class="day_lecture">29. Exploring the vpns</div></a>
+        <a href="./Back_Day_30.html"><div class="day_lecture">30. Decoding Servers</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_31.html"><div class="day_lecture">31. Understanding the reverse Proxies</div></a>
+        <a href="./Back_Day_32.html"><div class="day_lecture">32. Understanding the Internet Protocols</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_33.html"><div class="day_lecture">33. ISPs Your Gate way to Internet</div></a>
+        <a href="./Back_Day_34.html"><div class="day_lecture">34. TCP IP PROTOCOL</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_35.html"><div class="day_lecture">35. Exploring UDP</div></a>
+        <a href="./Back_Day_36.html">
+            <div class="day_lecture">
+                <!-- Name chaged here -->
+                <p>36. Understand HTTP Version&nbsp;</p>
+                <p>roadmap web communication</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_37.html"> 
+            <div class="day_lecture">
+                <p>37. Node Js Simplified Your&nbsp;</p>
+                <p>complete guide</p>
+            </div>
+        </a>
+        <a href="./Back_Day_38.html"><div class="day_lecture">38. How Node Js work</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_39.html"><div class="day_lecture">39. Libuv in Node Js</div></a>
+        <a href="./Back_Day_40.html"><div class="day_lecture">40. Node Js Single threat Architecture</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_41.html"><div class="day_lecture">41. Installation Nodejs Step by step</div></a>
+        <a href="./Back_Day_42.html"><div class="day_lecture">42. Verify the NodeJs Installation</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_43.html"><div class="day_lecture">43. NPM SIMPLIFIED</div></a>
+        <a href="./Back_Day_44.html"><div class="day_lecture">44. Getting Start with NPM</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_45.html"><div class="day_lecture">45. Understanding the Npm</div></a>
+        <a href="./Back_Day_46.html"><div class="day_lecture">46. Exploring Package and Script of NPM</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_47.html">
+            <div class="day_lecture">
+                <p>47. Introduction the file system&nbsp;</p>
+                <p> Operation in NPM</p>
+            </div>
+        </a>
+        <a href="./Back_Day_48.html"><div class="day_lecture">48. An Overview of File System in Nodejs</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_49.html"><div class="day_lecture">49. Reading File in Nodejs</div></a>
+        <a href="./Back_Day_50.html"><div class="day_lecture">50. Appending file in Node js</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_51.html"><div class="day_lecture">51. Renaming file in nodejs</div></a>
+        <a href="./Back_Day_52.html"><div class="day_lecture">52. Delete files in Nodejs</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_53.html"><div class="day_lecture">53. Creating Folder in Nodejs </div></a>
+        <a href="./Back_Day_54.html"><div class="day_lecture">54. Reading Folders in Nodejs</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_55.html"><div class="day_lecture">55. Deleting Folders in NodeJs</div></a>
+        <a href="./Back_Day_56.html"><div class="day_lecture">56. Understand Sycronuss Api In Nodejs</div></a> <!-- name changed -->
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_57.html"><div class="day_lecture">57. Intro to HTTP Module in Node Js</div></a>
+        <a href="./Back_Day_58.html"><div class="day_lecture">58. HTTP Basics in Nodejs</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_59.html">
+            <div class="day_lecture">
+                <p>59. Nodeman in Development&nbsp;</p>
+                <p> Dependency in Nodejs</p>
+            </div>
+        </a>
+        <a href="./Back_Day_60.html">
+            <div class="day_lecture">
+                <p>60. Introduction to HTTP Routing&nbsp;</p>
+                <p>in Nodejs</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_61.html"><div class="day_lecture">61. Introduction to Routing in Nodejs</div></a>
+        <a href="./Back_Day_62.html"><div class="day_lecture">62. How Client interact with Server</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_63.html"><div class="day_lecture">63. How Client Communicate with Server</div></a>
+        <a href="./Back_Day_64.html"><div class="day_lecture">64. HTTP Response Status Code1XX</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_65.html"><div class="day_lecture">65. Response Status Code (200)</div></a>
+        <a href="./Back_Day_66.html"><div class="day_lecture">66. Response Status Code (210)</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_67.html"><div class="day_lecture">67. Response Status Code (202)</div></a>
+        <a href="./Back_Day_68.html"><div class="day_lecture">68. Response Status Code (203)</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_69.html"><div class="day_lecture">69. HTTP Status Code 301</div></a>
+        <a href="./Back_Day_70.html">
+            <div class="day_lecture">
+                <p>70. HTTP Status Code 307 Understanding&nbsp;</p>
+                <p>  temperory redirect</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_71.html">
+            <div class="day_lecture">
+                <p>71. HTTP Status 308 Permanent&nbsp;</p>
+                <p>redirect request</p>
+            </div>
+        </a>
+        <a href="./Back_Day_72.html">
+            <div class="day_lecture">
+                <p>72. HTTP Status Code 4XX CLIENT&ensp;</p>
+                <p> SIDE ERROR</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_73.html">
+            <div class="day_lecture">
+                <p>73. HTTP Status Code 5XX SERVER&ensp;</p>
+                <p>side error</p>
+            </div>
+        </a>
+        <a href="./Back_Day_74.html"><div class="day_lecture">74. Introduction to ExpressJS Basics</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_75.html">
+            <div class="day_lecture">
+                <p>75. Handling Nonexistent route in&ensp;</p>
+                <p>Express JS</p>
+            </div>
+        </a>
+        <a href="./Back_Day_76.html"><div class="day_lecture">76. More on Express js</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_77.html">
+            <div class="day_lecture">
+                <p>77. Introduction to Middleware in&ensp;</p>
+                <p>in Express JS</p>
+            </div>
+        </a>
+        <a href="./Back_Day_78.html"><div class="day_lecture">78. Exploring Express in Middleware</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_79.html"><div class="day_lecture">79. Connect Flash in Middleware</div></a>
+        <a href="./Back_Day_80.html"><div class="day_lecture">80. Cors Middleware in Express js</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_81.html">
+            <div class="day_lecture">
+                <p>81. Cookie parser Middleware&ensp;</p>
+                <p> in Express JS</p>
+            </div>
+        </a>
+        <a href="./Back_Day_82.html"><div class="day_lecture">82. Morgan Middleware in Express</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_83.html"><div class="day_lecture">83. Request and Response In Express JS</div></a>
+        <a href="./Back_Day_84.html"><div class="day_lecture">84. Dynamic Routing In Express</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_85.html">
+            <div class="day_lecture">
+                <p>85. Introduction to Server Side rendering&ensp;</p>
+                <p>with EJS in Express JS</p>
+            </div>
+        </a>
+        <a href="./Back_Day_86.html"><div class="day_lecture">86. Form Handling in Ejs with Express</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_87.html">
+            <div class="day_lecture">
+                <p>87. Handling Form Submission with Post&ensp;</p>
+                <p>method in Express</p>
+            </div>
+        </a>
+        <a href="./Back_Day_88.html"><div class="day_lecture">Day 88.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_89.html"><div class="day_lecture">Day 89.</div></a>
+        <a href="./Back_Day_90.html"><div class="day_lecture">Day 90.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_91.html"><div class="day_lecture">Day 91.</div></a>
+        <a href="./Back_Day_92.html"><div class="day_lecture">Day 92.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_93.html"><div class="day_lecture">Day 93.</div></a>
+        <a href="./Back_Day_94.html"><div class="day_lecture">Day 94.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_95.html"><div class="day_lecture">Day 95.</div></a>
+        <a href="./Back_Day_96.html"><div class="day_lecture">Day 96.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_97.html"><div class="day_lecture">Day 97.</div></a>
+        <a href="./Back_Day_98.html"><div class="day_lecture">Day 98.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_99.html"><div class="day_lecture">Day 99.</div></a>
+        <a href="./Back_Day_100.html"><div class="day_lecture">Day 100.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_101.html"><div class="day_lecture">Day 101.</div></a>
+        <a href="./Back_Day_102.html"><div class="day_lecture">Day 102.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_103.html"><div class="day_lecture">Day 103.</div></a>
+        <a href="./Back_Day_104.html"><div class="day_lecture">Day 104.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_105.html"><div class="day_lecture">Day 105.</div></a>
+        <a href="./Back_Day_106.html"><div class="day_lecture">Day 106.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_107.html"><div class="day_lecture">Day 107.</div></a>
+        <a href="./Back_Day_108.html"><div class="day_lecture">Day 108.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_109.html"><div class="day_lecture">Day 109.</div></a>
+        <a href="./Back_Day_110.html"><div class="day_lecture">Day 110.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_111.html"><div class="day_lecture">Day 111.</div></a>
+        <a href="./Back_Day_112.html"><div class="day_lecture">Day 112.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_113.html"><div class="day_lecture">Day 113.</div></a>
+        <a href="./Back_Day_114.html"><div class="day_lecture">Day 114.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_115.html"><div class="day_lecture">Day 115.</div></a>
+        <a href="./Back_Day_116.html"><div class="day_lecture">Day 116.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_117.html"><div class="day_lecture">Day 117.</div></a>
+        <a href="./Back_Day_118.html"><div class="day_lecture">Day 118.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_119.html"><div class="day_lecture">Day 119.</div></a>
+        <a href="./Back_Day_120.html"><div class="day_lecture">Day 120.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_121.html"><div class="day_lecture">Day 121.</div></a>
+        <a href="./Back_Day_123.html"><div class="day_lecture">Video continues from Day 123.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_123.html"><div class="day_lecture">Day 123.</div></a>
+        <a href="./Back_Day_124.html"><div class="day_lecture">Day 124.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_125.html"><div class="day_lecture">Day 125.</div></a>
+        <a href="./Back_Day_126.html"><div class="day_lecture">Day 126.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_127.html"><div class="day_lecture">Day 127.</div></a>
+        <a href="./Back_Day_128.html"><div class="day_lecture">Day 128.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_129.html"><div class="day_lecture">Day 129.</div></a>
+        <a href="./Back_Day_130.html"><div class="day_lecture">Day 130.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_131.html"><div class="day_lecture">Day 131.</div></a>
+        <a href="./Back_Day_132.html"><div class="day_lecture">Day 132.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_133.html"><div class="day_lecture">Day 133.</div></a>
+        <a href="./Back_Day_134.html"><div class="day_lecture">Day 134.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_135.html"><div class="day_lecture">Day 135.</div></a>
+        <a href="./Back_Day_136.html"><div class="day_lecture">Day 136.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_137.html"><div class="day_lecture">Day 137.</div></a>
+        <a href="./Back_Day_138.html"><div class="day_lecture">Day 138.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_139.html"><div class="day_lecture">Day 139.</div></a>
+        <a href="./Back_Day_140.html"><div class="day_lecture">Day 140.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_141.html"><div class="day_lecture">Day 141.</div></a>
+        <a href="./Back_Day_142.html"><div class="day_lecture">Day 142.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_143.html"><div class="day_lecture">Day 143.</div></a>
+        <a href="./Back_Day_144.html"><div class="day_lecture">Day 144.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_145.html"><div class="day_lecture">Day 145.</div></a>
+        <a href="./Back_Day_146.html"><div class="day_lecture">Day 146.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_147.html"><div class="day_lecture">Day 147.</div></a>
+        <a href="./Back_Day_148.html"><div class="day_lecture">Day 148.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_149.html"><div class="day_lecture">Day 149.</div></a>
+        <a href="./Back_Day_150.html"><div class="day_lecture">Day 150.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_151.html"><div class="day_lecture">Day 151.</div></a>
+        <a href="./Back_Day_152.html"><div class="day_lecture">Day 152.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_153.html"><div class="day_lecture">Day 153.</div></a>
+        <a href="./Back_Day_154.html"><div class="day_lecture">Day 154.</div></a>
+    </div>
+
+    <div class="course_lectures">
+        <a href="./Back_Day_155.html"><div class="day_lecture">Day 155.</div></a>
+    </div>
+   
+    <div class="margin_div1"></div>
+
+    <!-- Pencil preloader code  -->
+   <script>
+    var preloader = document.getElementById('pre_pencil');
+    function Pencil_Preloader(){
+        preloader.style.display = 'none';
+    }
+    </script>
+<!-- Pencil preloader code & also add pencil_preloader.css -->
+
+</body>
+</html>
